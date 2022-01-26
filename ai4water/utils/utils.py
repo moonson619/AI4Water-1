@@ -402,7 +402,7 @@ def _make_model(**kwargs):
 
         # config may contain additional user defined args which will not be checked
         elif not accept_additional_args:
-            raise ValueError(f"Unknown keyworkd argument '{key}' provided")
+            raise ValueError(f"Unknown keyword argument '{key}' provided")
         else:
             config[key] = val
 
